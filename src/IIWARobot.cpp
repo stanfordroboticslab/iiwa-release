@@ -75,8 +75,8 @@ long int cnt = 0;
 bool IIWARobot::RobotUpdate(){
 
     // Calculate loop time;
-    controlFrequency = 1000000000.0/myClock.nsecsElapsed();
-    myClock.restart();
+    //controlFrequency = 1000000000.0/myClock.nsecsElapsed();
+    //myClock.restart();
 
     //reading the force/torque values
     if (b_robotIsConnected)
