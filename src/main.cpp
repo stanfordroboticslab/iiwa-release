@@ -33,7 +33,7 @@
 ***************************************************************************/
 
 #include "signal.h"
-#include <QThread>
+//#include <QThread>
 #include "IIWARobot.h"
 
 using namespace std;
