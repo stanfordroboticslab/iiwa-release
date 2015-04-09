@@ -35,7 +35,7 @@
 #ifndef IIWAROBOT_H_
 #define IIWAROBOT_H_
 
-#include <QElapsedTimer>
+//#include <QElapsedTimer>
 #include "IIWARobot.h"
 
 #include "boost/thread.hpp"
@@ -83,7 +83,7 @@ protected:
 
     double                      controlFrequency;
 
-    QElapsedTimer               myClock;
+    //QElapsedTimer               myClock;
 
     ros::Publisher              iiwa_pub;
 
