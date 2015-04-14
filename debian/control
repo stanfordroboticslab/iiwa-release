@@ -1,0 +1,12 @@
+Source: ros-hydro-iiwa
+Section: misc
+Priority: extra
+Maintainer: Mohammad Khansari <khansari@cs.stanford.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Homepage: http://lasa.epfl.ch/khansari
+Standards-Version: 3.9.2
+
+Package: ros-hydro-iiwa
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-sensor-msgs
+Description: IIWA Robot
