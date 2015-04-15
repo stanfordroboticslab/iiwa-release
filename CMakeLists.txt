@@ -19,6 +19,10 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_library(${PROJECT_NAME} src/IIWARobot.cpp include/IIWARobot.h)
 
+#When we have a package which builds messages and/or services as well as executables that use them,
+#we need to create an explicit dependency on the automatically-generated message target so that they are built in the correct order.
+add_dependencies(${PROJECT_NAME} ${PROJECT_NAME}_generate_messages_cpp)
+
 add_executable(${PROJECT_NAME}-bin src/main.cpp )
 
 target_link_libraries(${PROJECT_NAME}-bin ${PROJECT_NAME} ${catkin_LIBRARIES})
