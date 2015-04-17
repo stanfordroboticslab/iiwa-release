@@ -1,13 +1,12 @@
 <package>
 		<name>iiwa</name>
-    <description>
-		IIWA Robot
-	</description>
-    <version>2.0.3</version>
+    <description> A ROS interface for controlling the kuka iiwa. </description>
+    <version>2.0.4</version>
     <maintainer email="khansari@cs.stanford.edu">Mohammad Khansari</maintainer>
+    <maintainer email="keegango@stanford.edu">Keegan Go</maintainer>
     <buildtool_depend>catkin</buildtool_depend>
     <license>BSD</license>
-    <url> http://lasa.epfl.ch/khansari </url>
+    <url>https://bitbucket.org/khansari/iiwa</url>
     
     <build_depend> roscpp </build_depend>
     <build_depend> message_generation </build_depend>
