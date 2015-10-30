@@ -1,3 +1,24 @@
+## iiwa (hydro) - 2.0.6-0
+
+The packages in the `iiwa` repository were released into the `hydro` distro by running `/usr/bin/bloom-release iiwa --track hydro --rosdistro hydro` on `Fri, 30 Oct 2015 18:22:16 -0000`
+
+The `iiwa` package was released.
+
+Version of package(s) in repository `iiwa`:
+- upstream repository: https://bitbucket.org/khansari/iiwa.git
+- release repository: https://github.com/stanfordroboticslab/iiwa-release.git
+- rosdistro version: `2.0.4-0`
+- old version: `2.0.4-0`
+- new version: `2.0.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## iiwa (hydro) - 2.0.4-0
 
 The packages in the `iiwa` repository were released into the `hydro` distro by running `/usr/bin/bloom-release iiwa --track hydro --rosdistro hydro` on `Fri, 17 Apr 2015 21:07:51 -0000`
